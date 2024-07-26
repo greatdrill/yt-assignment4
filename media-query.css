@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px) {
+    body {
+        /* background-color: brown; */
+    }
+    .development{
+        /* margin-left: -20px; */
+        /* display: block; */
+        /* text-align: center; */
+    }
+     .tools > .group {
+        display: block;
+        margin: 0px;
+        
+    }
+    .tools > .group h5 {
+        font-size: 0.9rem
+    }
+
+}  
+
+@media screen and (min-width: 50px) {
+    .header-skills {
+        width: fit-content;
+        /* font-size: 0.9rem ; */
+    }
+    .using-now h4 {
+        width: fit-content;
+        font-size: 95%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 200px)   {
+    .using-now > .two >.logo {
+    display: none;
+        
+    }
+
+    .using-now > .one > .logo .fig1 img{
+        display: block ;
+    }
+} 
+.using-now > .one > .logo  {
+    
+    grid-template-rows: 2fr 2fr 2fr; 
+}
